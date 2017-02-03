@@ -51,6 +51,10 @@ How to install
 --------------
 Open Brackets, and click the extensions button on the right. Search for 'Brackets File Icons' and click install.
 
+Changelog
+---------
+**v1.1.0** - moved icon to _:before_ pseudoelement to be compatible with [brackets-move-files](https://github.com/alemonteiro/brackets-move-files).
+
 License
 -------
 Brackets Tree Icons is licensed under the [MIT license](http://opensource.org/licenses/MIT). The original Brackets Icons & Brackets File Icons is also licensed under the MIT license.
