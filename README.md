@@ -1,6 +1,6 @@
 Brackets Tree Icons
 ==============
-This extension adds file icons to the brackets file tree. Based on [drewbkoch](https://github.com/drewbkoch) and his [Brackets File Icons](https://github.com/drewbkoch/Brackets-File-Icons) project, which is based on [ivogabe's](https://github.com/ivogabe)[Brackets-Icons](https://github.com/ivogabe/Brackets-Icons) project. Thank to both of you.
+This extension adds file icons to the brackets file tree. Based on [drewbkoch](https://github.com/drewbkoch) and his [Brackets File Icons](https://github.com/drewbkoch/Brackets-File-Icons) project, which is based on [ivogabe's ](https://github.com/ivogabe)[Brackets-Icons](https://github.com/ivogabe/Brackets-Icons) project. Thank to both of you.
 
 Screenshots
 --------------
