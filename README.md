@@ -7,7 +7,7 @@ Screenshots
 ![Screenshot](https://raw.githubusercontent.com/mskocik/brackets-tree-icons/master/screenshots/screenshot1.jpg)
 
 ### Folder icon included
-![Screenshot](https://raw.githubusercontent.com/mskocik/brackets-tree-icons/master/screenshots/folder.jpg)
+![Screenshot](https://raw.githubusercontent.com/mskocik/brackets-tree-icons/master/screenshots/folder.png)
 
 
 Supported files
@@ -50,12 +50,6 @@ The following files are supported at the moment:
 How to install
 --------------
 Open Brackets, and click the extensions button on the right. Search for 'Brackets File Icons' and click install.
-
-What else is in the package?
-----------------------------
-
-Integrates great with [Brackets-git](https://github.com/zaggino/brackets-git) to better display new, modified files in the file tree.
-
 
 License
 -------
