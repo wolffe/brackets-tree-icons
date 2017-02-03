@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'icomoon';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/icomoon_v2.woff) format('woff');
+}
+.file-icon:before {
+	content: attr(data-icon);
+	font-family: "icomoon";
+	text-align: center;
+	width: 20px;
+	text-shadow: none;
+	text-decoration: none;
+	vertical-align: middle;
+	display: inline-block;
+}
+.file-icon {
+	color: #94a3a7;
+}
+.jstree ins.file-icon {
+	position: relative;
+	margin-left: -20px;
+	margin-right: 5px;
+	background: none;
+}
+li.jstree-open> ul {
+	margin-left: 5px;
+}
+
+#working-set-list-container .file-icon {
+	padding-right: 2px;
+}
+#project-files-container a {
+	padding-left: 9px;
+}
+/* brackets git extension correlation */
+.git-modified a , .git-new a {
+	position: relative;
+}
+.git-new a:before {
+	background: #91cc41;
+}
+.git-modified a:before {
+	background: #e3b551;
+}
+.jstree-icons > .git-modified > a:before, .jstree-icons > .git-new > a:before {
+	left: 0;
+}
