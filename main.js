@@ -97,6 +97,7 @@ define(function (require, exports, module) {
 	addIcon('ttf', '\ue01e', '#fa5656'); //changed
 	addIcon('eot', '\ue01e', '#fca82b');
 	addIcon('woff', '\ue01e', '#fd9be5');
+	addAlias('woff2', 'woff');
 
 	// Readme
 	addIcon('md', '\ue017', '#c36b35');
