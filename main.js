@@ -15,109 +15,114 @@ define(function (require, exports, module) {
 	}
 
 	// Folder
-	addIcon('folder', '\uf139', '#ADB9BD', 20);
-
-	// XML
-	addIcon('xml', '\uf05f', '#ff6600');
-	addIcon('plist', '\uf05f', '#5883f9');
-	addIcon('html', '\uf13b', '#d28445');
-	addAlias('htm', 'html');
-
-	// Stylesheets
-	addIcon('css', '\uf13c', '#6a9fb5');
-	addIcon('scss', '\uf13c', '#c6538c');
-	addAlias('sass', 'scss');
-	addIcon('less', '\uf13c', '#3b6bb2');
-	addIcon('styl', '\uf13c', '#b3d107');
-
-	// JavaScript
-	addIcon('js', '\ue097', '#f4bf75');
-//	addIcon('js', '\ue0a6', '#689F63');    node-like icon
-	addIcon('ejs', '\uf05f', '#f4bf75');
-	addIcon('ts', '\uf05f', '#228ed6');
-	addIcon('coffee', '\ue0b3', '#c9905e');
-	addIcon('json', '\uf096', '#F4BF75');
-	addIcon('ls', '\uf269', '#369bd7');
-
-	// Server side
-	addIcon('php', '\ue09a', '#6976c3');
-	addIcon('sql', '\uf096', '#c67f07');
-
-	// Java
-	addIcon('java', '\ue098', '#75b4de');
-	addAlias('class', 'java');
+	//TODO replace by open, close icons
+//	addIcon('folder', '\ue000', '#ADB9BD', 20);
+	addIcon('folder', '\ue001', '#ADB9BD', 20);
+//	addIcon('folder', '\ue002', '#ADB9BD', 20); //old one
 
 	// Ruby
-	addIcon('rb', '\ue091', '#ba4a32', 15);
+	addIcon('rb', '\ue003', '#ba4a32', 15);
 	addAlias('erb',   'rb');
 	addAlias('rdoc',  'rb');
 
+	// JavaScript
+	addIcon('js', '\ue004', '#f4bf75');
+//	addIcon('js', '\ue0a6', '#689F63');    node-like icon
+	addIcon('ejs', '\ue011', '#f4bf75');
+	addIcon('ts', '\ue011', '#228ed6');
+	addIcon('coffee', '\ue009', '#c9905e');
+	addIcon('json', '\ue015', '#F4BF75');
+	addIcon('ls', '\uf269', '#369bd7');
+
+	// XML
+	addIcon('xml', '\ue011', '#ff6600');
+	addIcon('plist', '\ue011', '#5883f9');
+	addIcon('html', '\ue018', '#d28445');
+	addAlias('htm', 'html');
+
+	// Stylesheets
+	addIcon('css', '\ue019', '#6a9fb5');
+	addIcon('scss', '\ue019', '#c6538c');
+	addAlias('sass', 'scss');
+	addIcon('less', '\ue019', '#3b6bb2');
+	addIcon('styl', '\ue019', '#b3d107');
+
+
+	// Server side
+	addIcon('php', '\ue006', '#6976c3');
+	addIcon('sql', '\ue015', '#c67f07');
+
+	// Java
+	addIcon('java', '\ue005', '#75b4de');
+	addAlias('class', 'java');
 
 	// Python
-	addIcon('py', '\ue09e', '#75b4de');
+	addIcon('py', '\ue007', '#75b4de');
 	addAlias('pyc',   'py');
 	addAlias('pyo',  'py');
 	addAlias('pyd',  'py');
 
 	// Shell and friends
-	addIcon('sh', '\ue0b7');
-	addIcon('bat', '\ue0b7');
-	addIcon('command', '\ue0b7');
+	addIcon('sh', '\ue016');
+	addIcon('bat', '\ue016');
+	addIcon('command', '\ue016');
 
 	// Templating
-	addIcon('jade', '\uf13b', '#01dfa5');
-	addIcon('dust', '\uf13b', '#b2270b');
-	addIcon('haml', '\uf13b', '#eaeae1');
+	addIcon('jade', '\ue018', '#01dfa5');
+	addIcon('dust', '\ue018', '#b2270b');
+	addIcon('haml', '\ue018', '#eaeae1');
+	addIcon('latte', '\ue01d', '#bfeef7');
 
 	// Images
-	addIcon('png', '\uf147', '#dbb1a9');
-	addIcon('jpg', '\uf147', '#dedfa3');
+	addIcon('png', '\ue01a', '#dbb1a9');
+	addIcon('jpg', '\ue01a', '#dedfa3');
 	addAlias('jpeg', 'jpg');
-	addIcon('tiff', '\uf147', '#f88b66');
-	addIcon('ico', '\uf147', '#b6d2d1');
-	addIcon('svg', '\uf147', '#c0c5eb');
+	addIcon('tiff', '\ue01a', '#f88b66');
+	addIcon('ico', '\ue01a', '#b6d2d1');
+	addIcon('svg', '\ue01a', '#c0c5eb');
+	addIcon('bmp', '\ue01a', '#c2ebc0');
 
-	addIcon('gif', '\uf012', '#aaecc0');
+	addIcon('gif', '\ue00c', '#aaecc0');
 
 	// Videos
-	addIcon('mp4', '\uf24d');
+	addIcon('mp4', '\ue01c');
 	addAlias('webm', 'mp4');
 	addAlias('ogg', 'mp4');
 
 	// Audio
-	addIcon('mp3', '\uf258');
+	addIcon('mp3', '\ue01b');//changed to note icon
 	addAlias('wav', 'mp3');
 
 	// Fonts
-	addIcon('ttf', '\uf241', '#fa5656');
-	addIcon('eot', '\uf241', '#fca82b');
-	addIcon('woff', '\uf241', '#fd9be5');
+	addIcon('ttf', '\ue01e', '#fa5656'); //changed
+	addIcon('eot', '\ue01e', '#fca82b');
+	addIcon('woff', '\ue01e', '#fd9be5');
 
 	// Readme
-	addIcon('md', '\uf0c9', '#c36b35');
+	addIcon('md', '\ue017', '#c36b35');
 	addAlias('markdown', 'md');
 
 	// Git
-	addIcon('gitignore', '\uf084', '#a0422e', 18);
-	addIcon('gitmodules', '\uf020');
-	addIcon('gitattributes', '\uf020');
+	addIcon('gitignore', '\ue013', '#a0422e', 18);
+	addIcon('gitmodules', '\ue00e');
+	addIcon('gitattributes', '\ue00e');
 
 	// Webservers
-	addIcon('htaccess', '\uf02f');
-	addIcon('htpasswd', '\uf02f');
-	addIcon('conf', '\uf02f');
+	addIcon('htaccess', '\ue010');
+	addIcon('htpasswd', '\ue010');
+	addIcon('conf', '\ue010');
 
 	// Archive
-	addIcon('zip', '\uf013');
-	addIcon('rar', '\uf013');
-	addIcon('7z', '\uf013');
-	addIcon('tgz', '\uf013');
-	addIcon('tar', '\uf013');
-	addIcon('gz', '\uf013');
-	addIcon('bzip', '\uf013');
+	addIcon('zip', '\ue00d');
+	addIcon('rar', '\ue00d');
+	addIcon('7z', '\ue00d');
+	addIcon('tgz', '\ue00d');
+	addIcon('tar', '\ue00d');
+	addIcon('gz', '\ue00d');
+	addIcon('bzip', '\ue00d');
 
 	// Settings
-	addIcon('project', '\uf013');
+	addIcon('project', '\ue00d');
 	addAlias('jscsrc', 'project');
 	addAlias('jshintrc', 'project');
 	addAlias('csslintrc', 'project');
@@ -125,15 +130,17 @@ define(function (require, exports, module) {
 	addAlias('classpath', 'project');
 
 	// Other text files
-	addIcon('txt', '\uf011');
-	addIcon('log', '\uf011');
-	addIcon('npmignore', '\uf084', '#a0422e', 18);
-	addIcon('yml', '\uf011');
-	addIcon('ls', '\uf011');
-	addIcon('org', '\uf011');
+	addIcon('txt', '\ue00b');
+	addIcon('log', '\ue00b');
+	addIcon('npmignore', '\ue013', '#a0422e', 18);
+	addIcon('yml', '\ue00b');
+	addIcon('ls', '\ue00b');
+	addIcon('org', '\ue00b');
 
 	// Other Files
-	addIcon('map', '\uf203');
+	addIcon('map', '\ue020');
+	addIcon('pdf', '\ue00f', '#dd7d7d');
+	addIcon('todo', '\ue012');
 
 
 	var WorkingSetView = brackets.getModule('project/WorkingSetView');

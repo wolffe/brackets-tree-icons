@@ -1,13 +1,10 @@
 Brackets Tree Icons
 ==============
-This extension adds file icons to the brackets file tree. Based on [drewbkoch](https://github.com/drewbkoch) and his [Brackets File Icons](https://github.com/drewbkoch/Brackets-File-Icons) project, which is based on [ivogabe's ](https://github.com/ivogabe)[Brackets-Icons](https://github.com/ivogabe/Brackets-Icons) project. Thank to both of you.
+This extension adds file and folder (open and close state) icons to the brackets file tree. Based on [drewbkoch](https://github.com/drewbkoch) and his [Brackets File Icons](https://github.com/drewbkoch/Brackets-File-Icons) project, which is based on [ivogabe's ](https://github.com/ivogabe)[Brackets-Icons](https://github.com/ivogabe/Brackets-Icons) project. Thank to both of you.
 
 Screenshots
 --------------
-![Screenshot](https://raw.githubusercontent.com/mskocik/brackets-tree-icons/master/screenshots/screenshot1.jpg)
-
-### Folder icon included
-![Screenshot](https://raw.githubusercontent.com/mskocik/brackets-tree-icons/master/screenshots/folder.png)
+![Screenshot](https://raw.githubusercontent.com/mskocik/brackets-tree-icons/master/screenshots/screenshot.jpg)
 
 
 Supported files
@@ -53,6 +50,8 @@ Open Brackets, and click the extensions button on the right. Search for 'Bracket
 
 Changelog
 ---------
+**v1.1.1** - added open folder, font clean up
+
 **v1.1.0** - moved icon to _:before_ pseudoelement to be compatible with [brackets-move-files](https://github.com/alemonteiro/brackets-move-files).
 
 License

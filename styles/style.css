@@ -2,7 +2,8 @@
 	font-family: 'icomoon';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../fonts/icomoon_v2.woff) format('woff');
+/*	src: url(../fonts/icomoon_v2.woff) format('woff');*/
+	src: url(../fonts/icomoon.woff) format('woff');
 }
 .file-icon:before {
 	content: attr(data-icon);
@@ -13,6 +14,10 @@
 	text-decoration: none;
 	vertical-align: middle;
 	display: inline-block;
+	border-left: 2px solid transparent;
+}
+.jstree-open > a .file-icon:before {
+	content: '\e000';
 }
 .file-icon {
 	color: #94a3a7;
@@ -34,7 +39,7 @@ li.jstree-open> ul {
 	padding-left: 9px;
 }
 /* brackets git extension correlation */
-.git-modified a , .git-new a {
+.git-modified a, .git-new a {
 	position: relative;
 }
 .git-new a:before {
@@ -43,6 +48,16 @@ li.jstree-open> ul {
 .git-modified a:before {
 	background: #e3b551;
 }
-.jstree-icons > .git-modified > a:before, .jstree-icons > .git-new > a:before {
-	left: 0;
+.jstree-brackets .git-new a:before,
+.jstree-brackets .git-modified a:before {
+	left: -9999px;
 }
+.jstree-brackets li.git-new .file-icon:before,
+.jstree-brackets li.git-modified .file-icon:before
+{
+	border-left: 2px solid #91cc41;
+}
+.jstree-brackets li.git-modified .file-icon:before {
+	border-color: #e3b551;
+}
+
