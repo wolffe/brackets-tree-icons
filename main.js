@@ -71,7 +71,7 @@ define(function (require, exports, module) {
 	addIcon('jade', '\ue018', '#01dfa5');
 	addIcon('dust', '\ue018', '#b2270b');
 	addIcon('haml', '\ue018', '#eaeae1');
-	addIcon('latte', '\ue01d', '#bfeef7');
+	addIcon('latte', '\ue01d', '#9cc2c9');
 
 	// Images
 	addIcon('png', '\ue01a', '#dbb1a9');
