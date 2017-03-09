@@ -17,7 +17,7 @@ define(function (require, exports, module) {
 	// Folder
 	//TODO replace by open, close icons
 //	addIcon('folder', '\ue000', '#ADB9BD', 20);
-	addIcon('folder', '\ue001', '#ADB9BD', 20);
+	addIcon('folder', '\ue000', '#ADB9BD', 20);
 //	addIcon('folder', '\ue002', '#ADB9BD', 20); //old one
 
 	// Ruby
@@ -158,7 +158,7 @@ define(function (require, exports, module) {
 //			return;
 			data = fileInfo['folder'];
 			data.margin = {
-				right: '5px',
+				right: '7px',
 				left: '-5px'
 			};
 		} else {

@@ -2,7 +2,7 @@
 	font-family: 'icomoon';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../fonts/icomoon.woff2) format('woff');
+	src: url(../fonts/icomoon.woff) format('woff');
 }
 .file-icon:before {
 	content: attr(data-icon);
@@ -16,7 +16,7 @@
 	border-left: 2px solid transparent;
 }
 .jstree-open > a .file-icon:before {
-	content: '\e000';
+	content: '\e001';
 }
 .file-icon {
 	color: #94a3a7;
