@@ -48,6 +48,11 @@ define(function (require, exports, module) {
 	addIcon('styl', '\ue019', '#b3d107');
 
 
+	addIcon('dart', '\ue900', '#00D2B8');
+	addIcon('c', '\ue022', '#3e87ad');
+	addIcon('cpp', '\ue023', '#9d4296');
+	addIcon('hpp', '\ue901', '#984C93');
+
 	// Server side
 	addIcon('php', '\ue006', '#6976c3');
 	addIcon('sql', '\ue015', '#c67f07');
@@ -158,7 +163,7 @@ define(function (require, exports, module) {
 //			return;
 			data = fileInfo['folder'];
 			data.margin = {
-				right: '7px',
+				right: '5 px',
 				left: '-5px'
 			};
 		} else {
