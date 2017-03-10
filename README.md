@@ -43,6 +43,7 @@ The following files are supported at the moment:
  - Zip, Rar, 7z, Tgz, Tar, Gz, Bzip
  - ERB, RB, RDOC
  - PY, PYC, PYO, PYD
+ - C, C++, Dart
 
 How to install
 --------------
@@ -50,6 +51,8 @@ Open Brackets, and click the extensions button on the right. Search for 'Bracket
 
 Changelog
 ---------
+**v1.2.0** - remove default folder arrow, dashed lines in file tree, new formats
+
 **v1.1.1** - added open folder, font clean up
 
 **v1.1.0** - moved icon to _:before_ pseudoelement to be compatible with [brackets-move-files](https://github.com/alemonteiro/brackets-move-files).
