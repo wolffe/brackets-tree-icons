@@ -44,6 +44,8 @@ The following files are supported at the moment:
  - ERB, RB, RDOC
  - PY, PYC, PYO, PYD
  - C, C++, Dart
+ - Elixir, Go, Elm 
+ - Arduino [Arduino icon credits](https://icons8.com/icon/11273/Arduino)
 
 How to install
 --------------

@@ -48,6 +48,12 @@ define(function (require, exports, module) {
 	addIcon('styl', '\ue019', '#b3d107');
 
 
+	addIcon('ino', '\ue902', '#dedede');
+	addIcon('pde', '\ue902', '#dedede');
+	addIcon('elm', '\ue906', '#3a95f0');
+	addAlias('elm-package.json', 'elm');
+	addIcon('go', '\ue907', '#74CDDD');
+	addIcon('elixir', '\ue903', '#9b8ff7');
 	addIcon('dart', '\ue900', '#00D2B8');
 	addIcon('c', '\ue022', '#3e87ad');
 	addIcon('cpp', '\ue023', '#9d4296');
