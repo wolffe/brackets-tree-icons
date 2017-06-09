@@ -29,7 +29,7 @@ define(function (require, exports, module) {
 	addIcon('js', '\ue004', '#f4bf75');
 //	addIcon('js', '\ue0a6', '#689F63');    node-like icon
 	addIcon('ejs', '\ue011', '#f4bf75');
-	addIcon('jsx', '\ue011', '#00D8FF');
+	addIcon('jsx', '\ue904', '#00D8FF');
 	addIcon('ts', '\ue011', '#228ed6');
 	addIcon('coffee', '\ue009', '#c9905e');
 	addIcon('json', '\ue015', '#F4BF75');
