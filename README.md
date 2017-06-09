@@ -46,6 +46,7 @@ The following files are supported at the moment:
  - C, C++, Dart
  - Elixir, Go, Elm 
  - Arduino [Arduino icon credits](https://icons8.com/icon/11273/Arduino)
+ - JSX
 
 How to install
 --------------
