@@ -231,3 +231,6 @@ li.jstree-leaf > div
 .file-icon.icon-ini {
 	background: url('../svg/ini.svg');
 }
+.file-icon.icon-livescript {
+	background: url('../svg/livescript.svg');
+}

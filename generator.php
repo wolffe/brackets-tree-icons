@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * Simple config.js and neccessary css classes generator
+ */
+
+
 $data = [
     'folder-folder',
     'file-file',
@@ -98,7 +104,7 @@ $data = [
     'latte:txt',
     'ini-ini'
 ];
-
+// createconfig.js entries
 $out = "";
 foreach($data as $item) {
     // alias
@@ -111,6 +117,15 @@ foreach($data as $item) {
     $out.= "{  ext:'$item[0]', css: '$item[1]' },\n\t\t";
     //normal
 }
+$out = trim($out, ',');
+$out = "define(function(require, exports, module) {
+    \"use strict\";
+
+    exports.definitions = [
+        $out
+    ];
+});";
+
 $css = '';
 foreach($data as $item) {
     if (strpos($item, ':') === FALSE) {
@@ -121,13 +136,6 @@ foreach($data as $item) {
 }";
     }
 }
-$out = trim($out, ',');
-$out = "define(function(require, exports, module) {
-    \"use strict\";
 
-    exports.definitions = [
-        $out
-    ];
-});";
 file_put_contents('config.js', $out);
 file_put_contents('css.txt', $css);
