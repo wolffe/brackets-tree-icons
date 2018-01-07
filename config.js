@@ -3,18 +3,18 @@ define(function(require, exports, module) {
 
     exports.definitions = [
         {  ext:'folder', css: 'folder' },
-        {  ext:'file', css: 'file' },
+		{  ext:'file', css: 'file' },
 		{  ext:'rb', css: 'ruby' },
 		{  ext:'erb', alias: 'rb' },
 		{  ext:'rdoc', alias: 'rb' },
-		{  ext:'ls', alias: 'livescript' },
+		{  ext:'ls', css: 'livescript' },
 		{  ext:'js', css: 'javascript' },
 		{  ext:'ejs', css: 'ejs' },
 		{  ext:'jsx', css: 'jsx' },
-		{  ext:'ini', css: 'ini' },
 		{  ext:'ts', css: 'typescript' },
 		{  ext:'coffe', css: 'coffescript' },
 		{  ext:'json', css: 'json' },
+		{  ext:'vue', css: 'vue' },
 		{  ext:'xml', css: 'xml' },
 		{  ext:'html', css: 'html' },
 		{  ext:'htm', alias: 'html' },
@@ -42,7 +42,7 @@ define(function(require, exports, module) {
 		{  ext:'pyo', alias: 'python' },
 		{  ext:'pyd', alias: 'python' },
 		{  ext:'sh', css: 'shell' },
-		{  ext:'command', css: 'shell' },
+		{  ext:'command', alias: 'sh' },
 		{  ext:'bat', css: 'bat' },
 		{  ext:'png', css: 'image' },
 		{  ext:'jpg', alias: 'png' },
@@ -84,6 +84,7 @@ define(function(require, exports, module) {
 		{  ext:'htpasswd', alias: 'txt' },
 		{  ext:'conf', alias: 'txt' },
 		{  ext:'latte', alias: 'txt' },
+		{  ext:'ini', css: 'ini' },
 		
     ];
 });

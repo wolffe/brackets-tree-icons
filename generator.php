@@ -20,6 +20,7 @@ $data = [
     'ts-typescript',
     'coffe-coffescript',
     'json-json',
+    'vue-vue',
     //xml
     'xml-xml',
     'html-html',

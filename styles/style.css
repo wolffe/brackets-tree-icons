@@ -234,3 +234,6 @@ li.jstree-leaf > div
 .file-icon.icon-livescript {
 	background: url('../svg/livescript.svg');
 }
+.file-icon.icon-vue {
+    background: url('../svg/vue.svg');
+}
