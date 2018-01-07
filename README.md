@@ -1,6 +1,27 @@
 # [NOTE]
 
-**This extension is not maintained anymore. If someone would like to take over the maintenance and future updates, contact me.**
+**This extension is not maintained anymore. If someone would like to take over the maintenance and future updates, contact me. PR will be merged immediately.**
+
+## You want to add some icon?
+
+If you're lazy
+Create new entry in `config.js` and `styles/style.css`. For simple usage use `generator.php` and add your definition in `$data` array;   
+Add new svg file into `svg` folder. And send PR.
+
+```js
+/* config.js */
+{
+    ext: '<file-type-extension>',
+    css: '<css-class>'
+}
+```
+
+```css
+/* styles/style.css */
+.file-icon.icon-<css-class> {
+    background: url('../svg/<css-class>.svg');
+}
+```
 
 Brackets Tree Icons
 ==============
