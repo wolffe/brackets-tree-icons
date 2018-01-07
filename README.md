@@ -4,7 +4,6 @@
 
 ## You want to add some icon?
 
-If you're lazy
 Create new entry in `config.js` and `styles/style.css`. For simple usage use `generator.php` and add your definition in `$data` array;   
 Add new svg file into `svg` folder. And send PR.
 
